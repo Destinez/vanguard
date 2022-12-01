@@ -10,6 +10,10 @@
     outline-offset: -8px
 }
 
+.navbar-brand img{
+    width: 120px!important;
+}
+
 
 @font-face {
     font-family: Open Sans;
@@ -2272,7 +2276,7 @@ header.global nav.main>.desktop>ul li {
     header.global nav.main>.desktop>ul li {
         display: block;
         text-align: left;
-        padding: 1rem;
+        /* padding: 1rem; */
     }
 
     header.global nav.main>.desktop>ul li .divider {
@@ -2456,7 +2460,7 @@ header.global nav.main>.desktop>ul li {
         padding: 0;
         background: #eaeaea;
         position: absolute;
-        top: 45px;
+        top: 54px;
     }
 
     #menu-main-menu ul.sub-menu .divider {
@@ -2571,7 +2575,7 @@ header.global nav.main>.desktop>ul li a {
     }
 
     #menu-main-menu li.menu-item-investment-trusts ul.sub-menu {
-        margin-left: -55px;
+        margin-left: -107px;
     }
 
     ul.sub-menu ul.sub-menu {
@@ -2629,7 +2633,7 @@ body {
 
 @media screen and (max-width:1250px) {
     header.global nav.main .desktop {
-        background: #1a161b;
+        background: #ffffff;
     }
 
     header.global nav.main>.desktop>ul li:last-child a:hover {
